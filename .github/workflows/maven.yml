@@ -17,5 +17,5 @@ jobs:
       run: mvn package --file pom.xml
     - uses: actions/upload-artifact@master
       with:
-        name: vaadin14test
-        path: target/vaadin14test-1.0-SNAPSHOT.war
+        name: julienshome
+        path: target/julienshome-1.0-SNAPSHOT.war
