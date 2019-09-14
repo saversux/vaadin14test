@@ -130,6 +130,12 @@
                     <context>ROOT</context>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <warName>julien</warName>
+                </configuration>
+            </plugin>
 
             <!--
                 Take care of synchronizing java dependencies and imports in
